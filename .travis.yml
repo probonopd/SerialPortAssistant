@@ -8,7 +8,7 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  - sudo apt-get -y install qt59base qt59serialport libgl1-mesa-dev
+  - sudo apt-get -y install qt59base qt59serialport qt59translations qt59tools libgl1-mesa-dev
   - source /opt/qt*/bin/qt*-env.sh
 
 script:
